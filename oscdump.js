@@ -1,6 +1,6 @@
 var osc = require('osc-min'),
     udp = require('dgram'),
-    inport = 13000;
+    inport = 12000;
 
 console.log("starting osc dump...");    
 sock = udp.createSocket("udp4", function(msg, rinfo) {
